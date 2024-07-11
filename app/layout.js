@@ -13,9 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-gray-200">
-        <main className="bg-white max-w-3xl p-5 min-h-[100dvh] mx-auto py-10 flex flex-col ">
-          <ul className="w-full bg-slate-900 text-white uppercase p-5 mb-6 flex flex-row gap-5">
+      <body className="bg-gray-200 ">
+        <main className="bg-white max-w-3xl p-4 min-h-[100dvh] mx-auto py-10 flex flex-col ">
+          <ul className="w-full bg-slate-900 text-white uppercase p-4 mb-6 flex flex-row gap-5">
             <li>
               <Link href={"/"} className="flex hover:text-slate-300">
                 Home
